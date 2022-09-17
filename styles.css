@@ -46,4 +46,6 @@ body {
     font-weight: 700;
 }
 
-
+img {
+    min-width: 200px;
+}
