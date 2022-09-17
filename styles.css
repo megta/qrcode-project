@@ -28,6 +28,8 @@ html {
 
 body {
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit';
+    font-size: 15px;
 }
 
 
@@ -36,6 +38,12 @@ body {
     min-height: 600px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 5px 5px 5px hsl(220, 15%, 55%);
+    font-family: 'Outfit';
+}
+
+#first-title {
+    font-size: 25px;
+    font-weight: 700;
 }
 
 
