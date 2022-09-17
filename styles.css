@@ -1,7 +1,18 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(https://fonts.google.com/specimen/Outfit);
+  }
+
+
 html {
     box-sizing: border-box;
 }
 
 * {
     box-sizing: inherit;
+}
+
+body {
+    background-color: hsl(220, 15%, 55%);
+font-family: 'Outfit';
 }
