@@ -37,7 +37,7 @@ body {
     width: 375px;
     min-height: 400px;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 5px 5px 5px hsl(220, 15%, 55%);
+    box-shadow: 5px 5px 35px 5px hsl(220, 15%, 55%);
     font-family: 'Outfit';
 }
 
@@ -49,3 +49,4 @@ body {
 img {
     max-width: 300px;
 }
+
