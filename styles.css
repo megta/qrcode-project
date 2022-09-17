@@ -1,6 +1,20 @@
+/* outfit-regular - latin */
 @font-face {
     font-family: 'Outfit';
-    src: url(https://fonts.google.com/specimen/Outfit);
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/outfit-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/outfit-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* outfit-700 - latin */
+  @font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/outfit-v6-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/outfit-v6-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 
 
@@ -14,5 +28,6 @@ html {
 
 body {
     background-color: hsl(220, 15%, 55%);
-font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
 }
+
