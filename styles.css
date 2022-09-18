@@ -30,37 +30,45 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit';
     font-size: 15px;
+    margin-top: 0;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     column-gap: 10px;
+    grid-template-rows: repeat(12, 20%);
+    row-gap: 10px;
 }
 
 
 #card {
     max-width: 300px;
-    min-height: 400px;
+    max-height: 450px;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 5px 5px 35px 5px hsl(220, 15%, 55%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 10px hsl(220, 15%, 55%);
     font-family: 'Outfit';
     padding: 15px;
     grid-column: 6 / 8;
+    grid-row: 2 / 5;
     /* margin: 0 auto; maybe to center vertically */
 }
 
 #first-title {
     font-size: 20px;
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
     text-align: center;
     padding: 10px;
 }
 
 img {
     width: 80%;
+    border-radius: 10px;;
 }
 
 .attribution {
     grid-column: 6 / 8;
-    padding: 20px 10px 0px 10px;
+    grid-row: 5 / 6;
+    padding: 50px 10px 0px 10px;
     
 }
 
