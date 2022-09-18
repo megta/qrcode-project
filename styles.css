@@ -39,18 +39,23 @@ body {
 }
 
 
-#card {
+#container {
     max-width: 300px;
     max-height: 450px;
+    grid-column: 6 / 8;
+    grid-row: 2 / 5;
+    /* margin: 0 auto; maybe to center vertically */
+}
+
+
+#card {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     box-shadow: 0px 10px 50px 10px hsl(220, 15%, 55%);
     font-family: 'Outfit';
     padding: 15px;
-    grid-column: 6 / 8;
-    grid-row: 2 / 5;
-    /* margin: 0 auto; maybe to center vertically */
 }
+
 
 #first-title {
     font-size: 20px;
@@ -62,7 +67,7 @@ body {
 
 img {
     width: 80%;
-    border-radius: 10px;;
+    border-radius: 10px;
 }
 
 .attribution {
