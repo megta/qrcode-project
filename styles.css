@@ -40,18 +40,19 @@ body {
 
 
 #container {
-    max-width: 300px;
-    max-height: 450px;
+    min-width: 300px;
+    min-height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 10px hsl(220, 15%, 55%);
     grid-column: 6 / 8;
     grid-row: 2 / 5;
+   
     /* margin: 0 auto; maybe to center vertically */
 }
 
 
 #card {
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    box-shadow: 0px 10px 50px 10px hsl(220, 15%, 55%);
     font-family: 'Outfit';
     padding: 15px;
 }
@@ -62,11 +63,16 @@ body {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+}
+
+p {
+    text-align: center; 
 }
 
 img {
-    width: 80%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
