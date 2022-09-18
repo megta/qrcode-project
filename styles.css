@@ -31,16 +31,19 @@ body {
     font-family: 'Outfit';
     font-size: 15px;
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
 }
 
 
 #card {
-    max-width: 375px;
+    max-width: 300px;
     min-height: 400px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 5px 5px 35px 5px hsl(220, 15%, 55%);
     font-family: 'Outfit';
     padding: 15px;
+    grid-column: 6 / 8;
     /* margin: 0 auto; maybe to center vertically */
 }
 
@@ -55,5 +58,10 @@ img {
     width: 80%;
 }
 
+.attribution {
+    grid-column: 6 / 8;
+    padding: 20px 10px 0px 10px;
+    
+}
 
 
