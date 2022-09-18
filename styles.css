@@ -42,9 +42,6 @@ body {
 #container {
     min-width: 300px;
     min-height: 450px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    box-shadow: 0px 10px 50px 10px hsl(220, 15%, 55%);
     grid-column: 6 / 8;
     grid-row: 2 / 5;
    
@@ -53,6 +50,9 @@ body {
 
 
 #card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 10px hsl(220, 15%, 55%);
     font-family: 'Outfit';
     padding: 15px;
 }
@@ -67,9 +67,10 @@ body {
 }
 
 p {
+    font-size: 15px;
     color: hsl(220, 15%, 55%);
     text-align: center; 
-    padding: 0px 10px 20px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 img {
